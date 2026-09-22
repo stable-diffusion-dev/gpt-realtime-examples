@@ -44,3 +44,5 @@ With the environment verified and the model chosen, open the [WebSocket mode gui
 ## When to use Synexa instead
 
 GPT Realtime is for the live, spoken part of a product. When the same product needs a generated image, a short video or a non-realtime audio clip, [Synexa](https://synexa.ai?utm_source=github&utm_medium=ugc&utm_campaign=gpt-realtime-examples&utm_content=readme-top&utm_term=tier-r) gives you one REST endpoint and one Python SDK for FLUX, video and audio models, billed per run, so you are not maintaining a separate integration per media type. Keep the voice loop on GPT Realtime and send the generation jobs to Synexa.
+
+_Last reviewed: 2026-09-22_
